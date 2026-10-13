@@ -1,0 +1,9 @@
+{
+  "enableDataviewJs": false,
+  "enableInlineDataviewJs": false,
+  "prettyRenderInlineFields": true,
+  "refreshEnabled": true,
+  "refreshInterval": 2500,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "warnOnEmptyResult": true
+}

@@ -1,0 +1,17 @@
+{
+  "$comment": "Vault-wide configuration. Machine-specific overrides go in brain.config.local.json (git-ignored).",
+  "stale_days": 90,
+  "proposal_stale_days": 30,
+  "max_proposals_per_scan": 5,
+  "sources": {
+    "meetingbrain": {
+      "path": "../Meetingbrain",
+      "exclude": ["Inbox", "Claude outputs"],
+      "description": "Cleaned meeting notes. Read-only for the brain."
+    },
+    "conversations": {
+      "path": null,
+      "description": "Optional folder with exported AI conversations (Markdown/JSON) to distill. null = manual distill only."
+    }
+  }
+}

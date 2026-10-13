@@ -1,0 +1,151 @@
+{
+  "$comment": "Machine-readable source of truth for vault vocabulary. _taxonomy.md explains it for humans. Changing this file is a proposal.",
+  "version": 2,
+  "types": {
+    "note": {
+      "folder": "10_Notes",
+      "status": [
+        "seedling",
+        "growing",
+        "evergreen",
+        "retired"
+      ]
+    },
+    "framework": {
+      "folder": "20_Frameworks",
+      "status": [
+        "draft",
+        "tested",
+        "published",
+        "retired"
+      ]
+    },
+    "source": {
+      "folder": "30_Sources",
+      "status": [
+        "unread",
+        "read",
+        "processed",
+        "retired"
+      ]
+    },
+    "position": {
+      "folder": "40_Positions",
+      "status": [
+        "forming",
+        "held",
+        "revised",
+        "retired"
+      ]
+    },
+    "entity": {
+      "folder": "50_Entities",
+      "status": [
+        "active",
+        "dormant",
+        "retired"
+      ]
+    },
+    "meta": {
+      "folder": "99_Meta",
+      "status": []
+    }
+  },
+  "required_fields": [
+    "type",
+    "tags",
+    "status",
+    "created",
+    "reviewed",
+    "origin",
+    "related"
+  ],
+  "type_fields": {
+    "framework": [
+      "domain",
+      "maturity"
+    ],
+    "source": [
+      "author",
+      "url",
+      "captured"
+    ],
+    "position": [
+      "confidence",
+      "evidence",
+      "concepts"
+    ],
+    "entity": [
+      "kind"
+    ]
+  },
+  "values": {
+    "origin": [
+      "manual",
+      "clipper",
+      "meetingbrain",
+      "conversation",
+      "agent"
+    ],
+    "maturity": [
+      "experimental",
+      "working",
+      "proven"
+    ],
+    "confidence": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "kind": [
+      "client",
+      "organisation",
+      "person",
+      "tool",
+      "offering",
+      "standard"
+    ],
+    "proposal_action": [
+      "create",
+      "update",
+      "merge",
+      "retire",
+      "taxonomy",
+      "review"
+    ]
+  },
+  "evidence_minimum": {
+    "low": 0,
+    "medium": 1,
+    "high": 2
+  },
+  "tags": {
+    "domain/ai-strategy": "how an organisation adopts, governs, and creates value from AI",
+    "domain/ai-security": "AI/LLM safety, misuse, and security research",
+    "domain/cybersecurity": "vulnerabilities, exploits, patching, defense",
+    "domain/data-architecture": "data platform architecture and modelling (medallion, canonical, dimensional, Data Vault)",
+    "domain/healthcare-data": "healthcare data standards and ecosystems (FHIR, OMOP, hospital data)",
+    "domain/consulting": "consulting craft: engagements, presales, delivery, bench",
+    "domain/knowledge-management": "knowledge systems, communities, catalogs, this brain",
+    "llm-capabilities": "empirical measurements of what LLMs can do",
+    "operating-model": "how people, process, and technology are organised to deliver",
+    "meta/taxonomy": "vault vocabulary",
+    "meta/moc": "maps of content and dashboards",
+    "meta/procedure": "agent procedures"
+  },
+  "folders_untyped": [
+    "00_Inbox",
+    "60_Proposals",
+    "90_Templates",
+    "_attachments",
+    "_scripts"
+  ],
+  "optional_fields": {
+    "note": [
+      "source"
+    ],
+    "all": [
+      "aliases"
+    ]
+  }
+}

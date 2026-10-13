@@ -1,0 +1,662 @@
+{
+ "generated": "2026-10-13",
+ "notes": [
+  {
+   "title": "Canonical Data Model",
+   "path": "10_Notes/Canonical Data Model.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Conceptual Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Data Vault",
+    "Dimensional Modelling",
+    "FHIR",
+    "Medallion Architecture",
+    "OMOP",
+    "Semantic Model"
+   ],
+   "links_in": 8,
+   "words": 565,
+   "proposal": null
+  },
+  {
+   "title": "Conceptual Data Model",
+   "path": "10_Notes/Conceptual Data Model.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Dimensional Modelling",
+    "Semantic Model"
+   ],
+   "links_in": 3,
+   "words": 157,
+   "proposal": null
+  },
+  {
+   "title": "Data Vault",
+   "path": "10_Notes/Data Vault.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Dimensional Modelling",
+    "Medallion Architecture",
+    "Semantic Model"
+   ],
+   "links_in": 4,
+   "words": 203,
+   "proposal": null
+  },
+  {
+   "title": "Dimensional Modelling",
+   "path": "10_Notes/Dimensional Modelling.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Data Vault",
+    "Medallion Architecture",
+    "Semantic Model"
+   ],
+   "links_in": 7,
+   "words": 238,
+   "proposal": null
+  },
+  {
+   "title": "FHIR",
+   "path": "10_Notes/FHIR.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture",
+    "domain/healthcare-data"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Medallion Architecture",
+    "OMOP"
+   ],
+   "links_in": 4,
+   "words": 167,
+   "proposal": null
+  },
+  {
+   "title": "Medallion Architecture",
+   "path": "10_Notes/Medallion Architecture.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Data Vault",
+    "Dimensional Modelling",
+    "FHIR",
+    "OMOP"
+   ],
+   "links_in": 6,
+   "words": 291,
+   "proposal": null
+  },
+  {
+   "title": "OMOP",
+   "path": "10_Notes/OMOP.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture",
+    "domain/healthcare-data"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Dimensional Modelling",
+    "FHIR",
+    "Medallion Architecture"
+   ],
+   "links_in": 4,
+   "words": 190,
+   "proposal": null
+  },
+  {
+   "title": "Semantic Model",
+   "path": "10_Notes/Semantic Model.md",
+   "type": "note",
+   "status": "seedling",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Conceptual Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Dimensional Modelling"
+   ],
+   "links_in": 5,
+   "words": 167,
+   "proposal": null
+  },
+  {
+   "title": "AI Operating Model",
+   "path": "20_Frameworks/AI Operating Model.md",
+   "type": "framework",
+   "status": "draft",
+   "tags": [
+    "domain/ai-strategy",
+    "operating-model"
+   ],
+   "aliases": [],
+   "created": "2026-07-23",
+   "reviewed": "2026-07-23",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "AI Strategy & Operating Model Approach",
+    "AI Value Creation Funnel",
+    "Three Levels of AI Ambition"
+   ],
+   "links_in": 4,
+   "words": 558,
+   "proposal": null
+  },
+  {
+   "title": "AI Strategy & Operating Model Approach",
+   "path": "20_Frameworks/AI Strategy & Operating Model Approach.md",
+   "type": "framework",
+   "status": "draft",
+   "tags": [
+    "domain/ai-strategy",
+    "operating-model"
+   ],
+   "aliases": [],
+   "created": "2026-07-23",
+   "reviewed": "2026-07-23",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "AI Operating Model",
+    "AI Value Creation Funnel",
+    "AI Value Creation — Three Ways to Add Value",
+    "Three Levels of AI Ambition"
+   ],
+   "links_in": 4,
+   "words": 318,
+   "proposal": null
+  },
+  {
+   "title": "AI Value Creation Funnel",
+   "path": "20_Frameworks/AI Value Creation Funnel.md",
+   "type": "framework",
+   "status": "draft",
+   "tags": [
+    "domain/ai-strategy"
+   ],
+   "aliases": [],
+   "created": "2026-07-23",
+   "reviewed": "2026-07-23",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "AI Operating Model",
+    "AI Strategy & Operating Model Approach",
+    "AI Value Creation — Three Ways to Add Value",
+    "Three Levels of AI Ambition"
+   ],
+   "links_in": 4,
+   "words": 261,
+   "proposal": null
+  },
+  {
+   "title": "AI Value Creation — Three Ways to Add Value",
+   "path": "20_Frameworks/AI Value Creation — Three Ways to Add Value.md",
+   "type": "framework",
+   "status": "draft",
+   "tags": [
+    "domain/ai-strategy"
+   ],
+   "aliases": [],
+   "created": "2026-07-23",
+   "reviewed": "2026-07-23",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "AI Operating Model",
+    "AI Strategy & Operating Model Approach",
+    "AI Value Creation Funnel",
+    "Three Levels of AI Ambition"
+   ],
+   "links_in": 3,
+   "words": 268,
+   "proposal": null
+  },
+  {
+   "title": "Data Modelling Across the Medallion Layers",
+   "path": "20_Frameworks/Data Modelling Across the Medallion Layers.md",
+   "type": "framework",
+   "status": "draft",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "conversation",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Conceptual Data Model",
+    "Data Vault",
+    "Dimensional Modelling",
+    "FHIR",
+    "Medallion Architecture",
+    "OMOP",
+    "Semantic Model"
+   ],
+   "links_in": 8,
+   "words": 419,
+   "proposal": null
+  },
+  {
+   "title": "Three Levels of AI Ambition",
+   "path": "20_Frameworks/Three Levels of AI Ambition.md",
+   "type": "framework",
+   "status": "draft",
+   "tags": [
+    "domain/ai-strategy"
+   ],
+   "aliases": [],
+   "created": "2026-07-23",
+   "reviewed": "2026-07-23",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "AI Operating Model",
+    "AI Strategy & Operating Model Approach",
+    "AI Value Creation Funnel",
+    "AI Value Creation — Three Ways to Add Value"
+   ],
+   "links_in": 4,
+   "words": 224,
+   "proposal": null
+  },
+  {
+   "title": "Measuring LLMs' Impact on N-day Exploits",
+   "path": "30_Sources/Measuring LLMs' Impact on N-day Exploits.md",
+   "type": "source",
+   "status": "read",
+   "tags": [
+    "domain/ai-security",
+    "domain/cybersecurity",
+    "llm-capabilities"
+   ],
+   "aliases": [],
+   "created": "2026-06-12",
+   "reviewed": "2026-06-12",
+   "origin": "clipper",
+   "confidence": null,
+   "kind": null,
+   "links_out": [],
+   "links_in": 0,
+   "words": 3205,
+   "proposal": null
+  },
+  {
+   "title": "Medallion needs data products to be organised by domain",
+   "path": "60_Proposals/Medallion needs data products to be organised by domain.md",
+   "type": "position",
+   "status": "forming",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": null,
+   "origin": "agent",
+   "confidence": "medium",
+   "kind": null,
+   "links_out": [
+    "Data Modelling Across the Medallion Layers",
+    "Medallion Architecture"
+   ],
+   "links_in": 0,
+   "words": 212,
+   "proposal": {
+    "action": "create",
+    "target": null,
+    "proposed_by": "claude",
+    "proposed_on": "2026-10-13",
+    "rationale": "The Medallion note records a critique and a response (layers are technical, combine with data products); that response is an opinion worth tracking against Alexandre's data product methodology work.",
+    "source_refs": [
+     "10_Notes/Medallion Architecture.md (Why it matters)",
+     "Claude conversation, Data & Healthcare Ecosystem project, 2026-10-13"
+    ]
+   }
+  },
+  {
+   "title": "Patch cadence must shrink because N-day is now N-hour",
+   "path": "60_Proposals/Patch cadence must shrink because N-day is now N-hour.md",
+   "type": "position",
+   "status": "forming",
+   "tags": [
+    "domain/ai-security",
+    "domain/cybersecurity"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": null,
+   "origin": "agent",
+   "confidence": "low",
+   "kind": null,
+   "links_out": [
+    "Measuring LLMs' Impact on N-day Exploits"
+   ],
+   "links_in": 0,
+   "words": 202,
+   "proposal": {
+    "action": "create",
+    "target": null,
+    "proposed_by": "claude",
+    "proposed_on": "2026-10-13",
+    "rationale": "The only source in the vault has takeaways but no position; this makes explicit whether Alexandre adopts its conclusion and shows the evidence is a single source.",
+    "source_refs": [
+     "30_Sources/Measuring LLMs' Impact on N-day Exploits.md (Key takeaways)"
+    ]
+   }
+  },
+  {
+   "title": "Start a canonical model small and sharp",
+   "path": "60_Proposals/Start a canonical model small and sharp.md",
+   "type": "position",
+   "status": "forming",
+   "tags": [
+    "domain/data-architecture"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": null,
+   "origin": "agent",
+   "confidence": "medium",
+   "kind": null,
+   "links_out": [
+    "Canonical Data Model",
+    "Conceptual Data Model",
+    "Data Modelling Across the Medallion Layers",
+    "Data Vault"
+   ],
+   "links_in": 0,
+   "words": 246,
+   "proposal": {
+    "action": "create",
+    "target": null,
+    "proposed_by": "claude",
+    "proposed_on": "2026-10-13",
+    "rationale": "The Canonical Data Model note already argues this; it is an opinion, not a description, and belongs in a position so its confidence and evidence are visible.",
+    "source_refs": [
+     "10_Notes/Canonical Data Model.md (section Characteristics checklist)",
+     "Claude conversation, Data & Healthcare Ecosystem project, 2026-10-13"
+    ]
+   }
+  },
+  {
+   "title": "Dashboard",
+   "path": "99_Meta/Dashboard.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/moc"
+   ],
+   "aliases": [],
+   "created": "2026-06-12",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 1,
+   "words": 334,
+   "proposal": null
+  },
+  {
+   "title": "_taxonomy",
+   "path": "99_Meta/_taxonomy.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/taxonomy"
+   ],
+   "aliases": [],
+   "created": "2026-06-12",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "Dashboard"
+   ],
+   "links_in": 7,
+   "words": 819,
+   "proposal": null
+  },
+  {
+   "title": "changelog",
+   "path": "99_Meta/changelog.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/moc"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "agent",
+   "confidence": null,
+   "kind": null,
+   "links_out": [],
+   "links_in": 0,
+   "words": 57,
+   "proposal": null
+  },
+  {
+   "title": "capture",
+   "path": "99_Meta/procedures/capture.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/procedure"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 0,
+   "words": 178,
+   "proposal": null
+  },
+  {
+   "title": "consult",
+   "path": "99_Meta/procedures/consult.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/procedure"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 0,
+   "words": 194,
+   "proposal": null
+  },
+  {
+   "title": "daily-scan",
+   "path": "99_Meta/procedures/daily-scan.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/procedure"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 0,
+   "words": 294,
+   "proposal": null
+  },
+  {
+   "title": "distill",
+   "path": "99_Meta/procedures/distill.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/procedure"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 0,
+   "words": 241,
+   "proposal": null
+  },
+  {
+   "title": "triage",
+   "path": "99_Meta/procedures/triage.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/procedure"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 0,
+   "words": 420,
+   "proposal": null
+  },
+  {
+   "title": "weekly-review",
+   "path": "99_Meta/procedures/weekly-review.md",
+   "type": "meta",
+   "status": null,
+   "tags": [
+    "meta/procedure"
+   ],
+   "aliases": [],
+   "created": "2026-10-13",
+   "reviewed": "2026-10-13",
+   "origin": "manual",
+   "confidence": null,
+   "kind": null,
+   "links_out": [
+    "_taxonomy"
+   ],
+   "links_in": 0,
+   "words": 216,
+   "proposal": null
+  }
+ ]
+}

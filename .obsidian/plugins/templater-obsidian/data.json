@@ -1,0 +1,44 @@
+{
+  "data_version": 2,
+  "command_timeout": 5,
+  "templates_folder": "90_Templates",
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
+  "auto_jump_to_cursor": true,
+  "jump_to_cursor_after_file_name": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "folder_templates": [
+    {
+      "folder": "10_Notes",
+      "template": "90_Templates/note.md"
+    },
+    {
+      "folder": "20_Frameworks",
+      "template": "90_Templates/framework.md"
+    },
+    {
+      "folder": "30_Sources",
+      "template": "90_Templates/source.md"
+    },
+    {
+      "folder": "40_Positions",
+      "template": "90_Templates/position.md"
+    },
+    {
+      "folder": "50_Entities",
+      "template": "90_Templates/entity.md"
+    },
+    {
+      "folder": "60_Proposals",
+      "template": "90_Templates/proposal.md"
+    }
+  ],
+  "file_templates": [],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": []
+}

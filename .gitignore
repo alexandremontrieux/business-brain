@@ -1,0 +1,16 @@
+# Obsidian: per-machine UI state only; plugins and settings are versioned on purpose
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+!.obsidian/plugins/obsidian-git/data.json
+!.obsidian/plugins/templater-obsidian/data.json
+!.obsidian/plugins/dataview/data.json
+# machine-specific config
+brain.config.local.json
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+__pycache__/

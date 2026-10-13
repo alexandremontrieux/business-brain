@@ -1,0 +1,9 @@
+{
+  "$comment": "Copy to brain.config.local.json and adjust. This file is git-ignored.",
+  "sources": {
+    "meetingbrain": {
+      "path": "C:/Users/AlexandreMontrieux/OneDrive - AE NV/Meetingbrain",
+      "exclude": ["Inbox", "Claude outputs"]
+    }
+  }
+}
